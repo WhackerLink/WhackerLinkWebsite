@@ -193,3 +193,17 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #212529;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+border-radius: 6px;
+border: 3px solid #212529;
+}
