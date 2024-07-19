@@ -233,6 +233,21 @@ main p {
     height: auto;
 }
 
+
+.image-container {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #000;
+}
+
+
+
+
+
+
 .media-grid {
     display: grid;
     gap: 1.5rem;
