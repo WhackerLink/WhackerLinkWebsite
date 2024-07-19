@@ -31,6 +31,15 @@ header {
     top: 0;
     z-index: 1000;
 }
+.image-container {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #000;
+}
+
 
 header .logo img {
     max-width: 200px;
