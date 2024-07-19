@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const images = document.querySelectorAll('.hero .hero-images img');
     const dots = document.querySelectorAll('.nav-dots .dot');
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
     let currentImageIndex = 0;
     const displayDuration = 5000;
 
@@ -30,5 +32,10 @@ document.addEventListener('DOMContentLoaded', () => {
         dot.addEventListener('click', () => {
             showImage(index);
         });
+    });
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+        hamburger.classList.toggle('show');
     });
 });
